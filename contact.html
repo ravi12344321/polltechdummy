@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.jpg" alt="logo" /></a>
+        <div class="nav_links" id="nav_links">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="services.html">services</a></li>
+            <li><a href="">blog</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Contact us</h1>
+      </div>
+    </section>
+
+    <!--contact us content-->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28491.446702168203!2d81.009132!3d26.794407!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be35e06ebb8cf%3A0x7a4b6ebccb850f37!2sAhmamau%2C%20Uttar%20Pradesh%20226002%2C%20India!5e0!3m2!1sen!2sus!4v1666440005402!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+   <!--contact us details-->
+   <section class="contact">
+    <h1>contact us</h1>
+
+    <div class="row">
+        <div class="contact_col">
+            <img src="images/icons8-iphone-x-30.png" alt="phone">
+            <P>Call: +91- 9793-21-4440
+                Weekdays: 9am to 8pm
+                Saturday: 9am to 2pm
+                Sunday: Closed</P>
+        </div>
+        <div class="contact_col">
+            <img src="images/icons8-mail-50.png" alt="mail">
+            <P>Email: info@Polltech.in
+                Web: www.Polltech.in</P>
+        </div>
+        <div class="contact_col">
+            <img src="images/icons8-location-30.png" alt="Location">
+            <P>Location: 442/527 Ahmamau, 
+                Arjunganj, Lucknow.-226002.
+                Uttar Pradesh, India</P>
+        </div>
+    </div>
+</section>
+
+    <!--contact form-->
+    <section class="contact_form">
+            <div class="contact_col">
+                <form action="form.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="10" name="message" placeholder="message" required></textarea>
+                    <button type="submit">Send message</button>
+                </form>
+            </div>
+        
+    </section>
+   
+    <!--footer-->
+    <section class="footer">
+        <div class="col">
+            <div class="upper_row">
+                <h3>Polltech.in</h3>
+                <p>
+                    The Business of gathering valuable and <br>
+                    accurate information or Data and analyzing <br>
+                    it for significant/key insights and trends.
+                </p>
+                <div class="upper_row_icons">
+                    <img src="images/icons8-facebook-48.png" alt="facebook">
+                    <img src="images/icons8-twitter-48.png" alt="twitter">
+                    <img src="images/icons8-google-48.png" alt="google">
+                    <img src="images/icons8-pinterest-48.png" alt="pinterest">
+                </div>
+            </div>
+            <div class="lower_row">
+                <h4>© Copyright Polltech.in. All Rights Reserved</h4>
+            </div>
+        </div>
+    </section>
+
+    <!--java script for toggle menue-->
+    <script>
+      var nav_links = document.getElementById("nav_links");
+      function showmenu() {
+        nav_links.style.right = "0";
+      }
+      function hidemenu() {
+        nav_links.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
