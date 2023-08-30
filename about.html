@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.jpg" alt="logo" /></a>
+        <div class="nav_links" id="nav_links">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="services.html">services</a></li>
+            <li><a href="">blog</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>About us</h1>
+      </div>
+    </section>
+
+    <!--about us content-->
+    <section class="about_us">
+        <div class="row">
+            <div class="about_col">
+                <h1>About Us</h1>
+                <p>Now a-days the information is most essential part of accurate data and analysis. We are in the business of gathering valuable and accurate information or Data and analyzing it for significant/key insights and trends. For this we use innovative and cutting edge tools and practices.</p>
+                <br><br><p>The representatives can shake the curse of anti-incumbency and the constituents can reap the rewards of the hard work of a well-informed and dedicated representative. POLLTECH provide Voter Relationship Management by helping the clients to enhance the voter network and confidence of the voters in them and Brand Building & Campaign Management to create a positive wave during the elections.</p>
+                <br><img src="images/about.jpg" alt="about_us"><br>
+                <p>The gap between the representatives and their electorates is the biggest concern in the political world It becomes difficult for the leaders to stay in touch with all parts of the constituency due to their busy schedule. POLLTECH bridges this gap by its research, technical and communication capabilities.</p>
+                <br><br><p>We provide them with tools and services to help them prepare for elections as well as manage their day-to-day activities. that aims to revolutionize the way political research is done starting right from data collection to the delivery of reports.</p>
+            </div>
+        </div>
+    </section>
+   
+    <!--footer-->
+    <section class="footer">
+        <div class="col">
+            <div class="upper_row">
+                <h3>Polltech.in</h3>
+                <p>
+                    The Business of gathering valuable and <br>
+                    accurate information or Data and analyzing <br>
+                    it for significant/key insights and trends.
+                </p>
+                <div class="upper_row_icons">
+                    <img src="images/icons8-facebook-48.png" alt="facebook">
+                    <img src="images/icons8-twitter-48.png" alt="twitter">
+                    <img src="images/icons8-google-48.png" alt="google">
+                    <img src="images/icons8-pinterest-48.png" alt="pinterest">
+                </div>
+            </div>
+            <div class="lower_row">
+                <h4>© Copyright Polltech.in. All Rights Reserved</h4>
+            </div>
+        </div>
+    </section>
+
+    <!--java script for toggle menue-->
+    <script>
+      var nav_links = document.getElementById("nav_links");
+      function showmenu() {
+        nav_links.style.right = "0";
+      }
+      function hidemenu() {
+        nav_links.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
