@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.jpg" alt="logo" /></a>
+        <div class="nav_links" id="nav_links">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="services.html">services</a></li>
+            <li><a href="">blog</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Services</h1>
+      </div>
+    </section>
+
+
+          <!--other services-->
+          <section class="fields">
+            <h1>Our Fields</h1>
+      
+            <div class="row">
+              <div class="fields_col">
+                <img src="images/slider-3.jpg" alt="" />
+                <div class="layer">
+                  <h3>Survey</h3>
+                </div>
+              </div>
+              <div class="fields_col">
+                <img src="images/slider-4.jpg" alt="" />
+                <div class="layer">
+                  <h3>Research</h3>
+                </div>
+              </div>
+              <div class="fields_col">
+                <img src="images/slider-5.jpg" alt="" />
+                <div class="layer">
+                  <h3>Advertising</h3>
+                </div>
+              </div>
+            </div>
+          </section>
+
+    <!-- services content-->
+    <section class="works">
+        <h1>Works</h1>
+  
+        <div class="row">
+          <div class="work_col">
+            <img src="images/survey.jpg" alt="survey" />
+            <h3>Political Survey</h3>
+            <p>
+              In our political reaserach we covers baseline survey , door to door
+              survey , opinion& Exit poll, voterlist correction and we covers
+              evaluation of voting trends.
+            </p>
+          </div>
+          <div class="work_col">
+            <img src="images/election.jpg" alt="election" />
+            <h3>Election Management & Campaigning</h3>
+            <p>
+              Election Campaign Management acts like a bridge between voters and
+              political leader/political parties.
+            </p>
+          </div>
+          <div class="work_col">
+            <img src="images/digital.jpg" alt="digital" />
+            <h3>Social Digital Media & Website</h3>
+            <p>
+              We also offer website development, dynamic web portal development,
+              data processing, product customization services.
+            </p>
+          </div>
+          <div class="work_col">
+            <img src="images/market.jpg" alt="market" />
+            <h3>Market Research & Advertising</h3>
+            <p>
+              This class includes investigation into market potential, acceptance
+              and familiarity of products and buying habits of consumers for the
+              purpose of sales promotionâ€™s and development of her products,
+              including statically analysis of the results.
+            </p>
+          </div>
+        </div>
+      </section>
+   
+    <!--footer-->
+    <section class="footer">
+        <div class="col">
+            <div class="upper_row">
+                <h3>Polltech.in</h3>
+                <p>
+                    The Business of gathering valuable and <br>
+                    accurate information or Data and analyzing <br>
+                    it for significant/key insights and trends.
+                </p>
+                <div class="upper_row_icons">
+                    <img src="images/icons8-facebook-48.png" alt="facebook">
+                    <img src="images/icons8-twitter-48.png" alt="twitter">
+                    <img src="images/icons8-google-48.png" alt="google">
+                    <img src="images/icons8-pinterest-48.png" alt="pinterest">
+                </div>
+            </div>
+            <div class="lower_row">
+                <h4>© Copyright Polltech.in. All Rights Reserved</h4>
+            </div>
+        </div>
+    </section>
+
+    <!--java script for toggle menue-->
+    <script>
+      var nav_links = document.getElementById("nav_links");
+      function showmenu() {
+        nav_links.style.right = "0";
+      }
+      function hidemenu() {
+        nav_links.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
